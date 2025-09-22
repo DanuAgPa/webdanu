@@ -150,7 +150,7 @@ export default function Home() {
       `,
       date: "22 Sept 2025", 
       category: "Kuliner Nusantara", 
-      imageUrl: '/images/sate.jpg'
+      imageUrl: '/images/Sate.jpg'
     }
   ];
 
