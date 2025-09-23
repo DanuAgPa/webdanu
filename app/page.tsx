@@ -150,7 +150,92 @@ export default function Home() {
       `,
       date: "22 Sept 2025", 
       category: "Kuliner Nusantara", 
-      imageUrl: '/images/Sate.jpg'
+      imageUrl: '/images/sate.jpg'
+    },
+    // ARTIKEL BARU YANG DITAMBAHKAN
+    { 
+      id: 5, 
+      title: "Soto: Ragam Cita Rasa dari Sabang sampai Merauke", 
+      excerpt: "Menjelajahi keunikan soto-soto daerah yang menjadi bukti kekayaan kuliner Indonesia.", 
+      content: `
+        <h2>Asal Usul Soto</h2>
+        <p>Soto dipercaya berasal dari Tiongkok yang dibawa oleh para imigran dan beradaptasi dengan bumbu lokal. Kata "soto" diduga berasal dari bahasa Hokkien "chau-t'au" yang berarti jeroan.</p>
+        
+        <h2>Ragam Soto di Indonesia</h2>
+        <p>Setiap daerah memiliki soto khasnya masing-masing. Soto Lamongan dengan koyanya, Soto Betawi yang kaya santan, Soto Madura dengan daging kerbau, hingga Soto Banjar dengan bumbu harum rempahnya.</p>
+        
+        <h2>Bahan dan Bumbu Khas</h2>
+        <p>Meski beragam, soto umumnya menggunakan kaldu ayam atau sapi dengan bumbu dasar kunyit, bawang putih, dan merica. Pelengkap seperti soun, tauge, dan telur menjadi ciri khas sebagian besar soto.</p>
+        
+        <h2>Filosofi dalam Semangkuk Soto</h2>
+        <p>Soto melambangkan keragaman Indonesia. Meski berbeda-beda di setiap daerah, semua tetap disebut soto dan sama-sama nikmat, mencerminkan Bhinneka Tunggal Ika.</p>
+      `,
+      date: "21 Sept 2025", 
+      category: "Kuliner Nusantara", 
+      imageUrl: '/images/soto.jpg'
+    },
+    { 
+      id: 6, 
+      title: "Kerak Telor: Legenda Kuliner Betawi yang Abadi", 
+      excerpt: "Kisah makanan tradisional Jakarta yang menjadi saksi bisuk sejarah ibukota.", 
+      content: `
+        <h2>Sejarah Kerak Telor</h2>
+        <p>Kerak telor telah ada sejak zaman kolonial Belanda dan menjadi makanan favorit masyarakat Betawi. Awalnya dijajakan oleh pedagang keliling di pasar-pasar tradisional.</p>
+        
+        <h2>Proses Pembuatan Tradisional</h2>
+        <p>Kerak telor dimasak dengan wajan kecil di atas arang, memberikan aroma khas yang tidak bisa digantikan dengan kompor modern. Beras ketan, telur, dan kelapa sangrai menjadi bahan utamanya.</p>
+        
+        <h2>Pelestarian Budaya</h2>
+        <p>Kini kerak telor menjadi ikon kuliner Jakarta dan selalu hadir dalam event-event kebudayaan Betawi. Banyak generasi muda yang mulai belajar membuat kerak telor untuk melestarikan warisan leluhur.</p>
+        
+        <h2>Fakta Menarik</h2>
+        <p>Kerak telor sempat hampir punah pada tahun 1990-an, namun berhasil dihidupkan kembali melalui festival-festival kuliner dan perhatian pemerintah daerah.</p>
+      `,
+      date: "20 Sept 2025", 
+      category: "Warisan Budaya", 
+      imageUrl: '/images/kerak-telor.jpg'
+    },
+    { 
+      id: 7, 
+      title: "Bakso: Dari Makanan Rakyat Hingga Mendunia", 
+      excerpt: "Perjalanan bakso dari makanan sederhana menjadi salah satu kuliner Indonesia paling populer.", 
+      content: `
+        <h2>Asal Usul Bakso</h2>
+        <p>Bakso berasal dari Tiongkok dan dibawa oleh imigran Hokkien ke Indonesia. Nama "bakso" sendiri berasal dari bahasa Hokkien "bak-so" yang berarti daging giling.</p>
+        
+        <h2>Evolusi Rasa Indonesia</h2>
+        <p>Bakso di Indonesia mengalami adaptasi dengan tambahan bumbu lokal seperti bawang putih goreng, seledri, dan daun bawang. Kuah kaldu sapi yang gurih menjadi ciri khas bakso Indonesia.</p>
+        
+        <h2>Inovasi Bakso Modern</h2>
+        <p>Dari bakso biasa, kini muncul berbagai inovasi seperti bakso keju, bakso beranak, bakso telur, hingga bakso jumbo. Gerai-gerai bakso modern bermunculan dengan konsep yang menarik.</p>
+        
+        <h2>Bakso di Kancah Internasional</h2>
+        <p>Bakso mulai dikenal di mancanegara melalui diaspora Indonesia. Banyak restoran Indonesia di luar negeri yang menjadikan bakso sebagai menu andalan.</p>
+      `,
+      date: "19 Sept 2025", 
+      category: "Kuliner Populer", 
+      imageUrl: '/images/bakso.jpg'
+    },
+    { 
+      id: 8, 
+      title: "Pempek: Keunikan Kuliner Palembang yang Mendunia", 
+      excerpt: "Mengenal lebih dekat pempek, makanan khas Sumatera Selatan dengan cita rasa yang khas.", 
+      content: `
+        <h2>Sejarah Pempek</h2>
+        <p>Pempek telah ada sejak abad ke-16 di Palembang. Konon, pempek tercipta dari inovasi masyarakat Palembang dalam mengolah ikan sungai Musi yang melimpah.</p>
+        
+        <h2>Jenis-jenis Pempek</h2>
+        <p>Ada berbagai jenis pempek seperti pempek kapal selam (berisi telur), pempek lenjer (panjang), pempek kulit, pempek adaan (bulat), dan pempek pistel (berisi pepaya).</p>
+        
+        <h2>Cuko yang Khas</h2>
+        <p>Cuko (cuka) pempek terbuat dari gula merah, cabe rawit, bawang putih, dan asam jawa. Rasa manis, asam, dan pedas yang seimbang menjadi kunci kelezatan pempek.</p>
+        
+        <h2>Pengakuan Nasional</h2>
+        <p>Pempek telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia oleh Kementerian Pendidikan dan Kebudayaan pada tahun 2014.</p>
+      `,
+      date: "18 Sept 2025", 
+      category: "Kuliner Sumatera", 
+      imageUrl: '/images/pempek.jpg'
     }
   ];
 
@@ -303,6 +388,146 @@ export default function Home() {
       cookingTime: "30 menit",
       difficulty: "Mudah",
       servings: "3-4 porsi"
+    },
+    // RESEP BARU YANG DITAMBAHKAN
+    {
+      id: 5,
+      title: "Soto Ayam Lamongan",
+      description: "Soto ayam dengan kuah kuning gurih dan koya yang khas dari Lamongan",
+      ingredients: [
+        "1 ekor ayam kampung, potong 4 bagian",
+        "2 liter air",
+        "3 batang serai, memarkan",
+        "4 lembar daun jeruk",
+        "2 cm lengkuas, memarkan",
+        "2 sdt garam",
+        "1 sdt gula pasir",
+        "Bumbu halus:",
+        "8 siung bawang merah",
+        "4 siung bawang putih",
+        "3 cm kunyit bakar",
+        "2 cm jahe",
+        "3 butir kemiri sangrai",
+        "1 sdt ketumbar",
+        "Pelengkap:",
+        "Soun, tauge, kol iris, daun seledri, bawang goreng",
+        "Koya: kerupuk udang dan bawang putih goreng dihaluskan"
+      ],
+      steps: [
+        "Rebus ayam dengan air hingga empuk, angkat ayam dan suwir-suwir",
+        "Tumis bumbu halus dengan serai, daun jeruk, dan lengkuas hingga harum",
+        "Masukkan bumbu tumis ke dalam kaldu ayam, tambahkan garam dan gula",
+        "Masak hingga mendidih dan bumbu meresap",
+        "Sajikan dengan nasi putih, suwiran ayam, dan pelengkap lainnya",
+        "Taburi dengan koya dan bawang goreng"
+      ],
+      imageUrl: '/images/soto-ayam.jpg',
+      cookingTime: "1 jam 30 menit",
+      difficulty: "Sedang",
+      servings: "6 porsi"
+    },
+    {
+      id: 6,
+      title: "Pempek Kapal Selam",
+      description: "Pempek lenjer dengan isian telur yang menjadi favorit banyak orang",
+      ingredients: [
+        "500 gram ikan tenggiri fillet, haluskan",
+        "200 gram sagu tani",
+        "1 butir telur",
+        "200 ml air es",
+        "1 sdt garam",
+        "1/2 sdt gula pasir",
+        "1/2 sdt merica",
+        "6 butir telur ayam rebus (untuk isian)",
+        "Bahan cuko:",
+        "500 ml air",
+        "150 gram gula merah",
+        "3 siung bawang putih",
+        "5 cabe rawit merah",
+        "2 sdm air asam jawa",
+        "1 sdt garam"
+      ],
+      steps: [
+        "Campur ikan, sagu, telur, garam, gula, dan merica",
+        "Tambahkan air es sedikit demi sedikit sambil diuleni hingga kalis",
+        "Ambil adonan, pipihkan dan beri telur rebus di tengah, bentuk lonjong",
+        "Rebus dalam air mendidih hingga mengapung, angkat dan tiriskan",
+        "Untuk cuko: rebus semua bahan hingga gula larut dan mengental",
+        "Goreng pempek hingga kecoklatan, sajikan dengan cuko"
+      ],
+      imageUrl: '/images/pempek.jpg',
+      cookingTime: "1 jam",
+      difficulty: "Sulit",
+      servings: "4 porsi"
+    },
+    {
+      id: 7,
+      title: "Bakso Sapi Kenyal",
+      description: "Bakso sapi homemade dengan tekstur kenyal dan rasa yang gurih",
+      ingredients: [
+        "500 gram daging sapi has dalam",
+        "100 gram es batu, serut",
+        "3 siung bawang putih, goreng",
+        "1 butir telur putih",
+        "3 sdm tepung tapioka",
+        "1 sdt baking powder",
+        "1 sdt garam",
+        "1/2 sdt merica",
+        "1/2 sdt gula pasir",
+        "Bahan kuah:",
+        "2 liter air kaldu sapi",
+        "3 siung bawang putih, geprek",
+        "1 sdt merica butiran",
+        "2 batang daun bawang",
+        "Garam secukupnya"
+      ],
+      steps: [
+        "Giling daging sapi dengan es batu hingga halus",
+        "Tambahkan bawang putih goreng, telur, dan bumbu lainnya",
+        "Masukkan tepung tapioka sedikit demi sedikit sambil diuleni",
+        "Didihkan air, bentuk bakso dengan sendok dan masukkan ke air mendidih",
+        "Masak hingga bakso mengapung, angkat dan tiriskan",
+        "Untuk kuah: rebus semua bahan kuah hingga harum",
+        "Sajikan bakso dengan kuah panas dan pelengkap"
+      ],
+      imageUrl: '/images/bakso.jpg',
+      cookingTime: "45 menit",
+      difficulty: "Sedang",
+      servings: "4-5 porsi"
+    },
+    {
+      id: 8,
+      title: "Kerak Telor Betawi",
+      description: "Makanan tradisional Jakarta dengan cita rasa gurih manis yang khas",
+      ingredients: [
+        "200 gram beras ketan, rendam 4 jam",
+        "3 butir telur bebek",
+        "100 gram kelapa parut sangrai",
+        "5 buah ebi, rendam dan haluskan",
+        "1 sdt garam",
+        "1/2 sdt merica",
+        "Bumbu halus:",
+        "3 buah cabe merah keriting",
+        "2 siung bawang merah",
+        "1 siung bawang putih",
+        "1 cm kencur",
+        "Pelengkap:",
+        "Bawang goreng dan cabe rawit"
+      ],
+      steps: [
+        "Kukus beras ketan hingga setengah matang",
+        "Campur beras ketan dengan kelapa sangrai dan ebi",
+        "Kocok telur dengan bumbu halus, garam, dan merica",
+        "Panaskan wajan kecil, tuang adonan telur",
+        "Taburi dengan campuran beras ketan di atasnya",
+        "Tutup wajan dan masak dengan api kecil hingga matang",
+        "Balik kerak telor, masak sebentar lalu angkat",
+        "Sajikan dengan taburan bawang goreng dan cabe rawit"
+      ],
+      imageUrl: '/images/kerak-telor.jpg',
+      cookingTime: "30 menit",
+      difficulty: "Sedang",
+      servings: "3 porsi"
     }
   ];
 
